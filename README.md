@@ -2,7 +2,7 @@ Select the Best Predictive Model in ERA
 ====================================================
 **Out-of-sample error estimation for model selection in ERA**
 
-This repository contains entire R code work and datafiles used for all the analyses, tables, and figures in the manuscript "Prediction-Oriented Model Selection Metrics for Extended Redundancy Analysis." All of the original data used for the creation of "merged2016-2019.csv" were downloaded from: [National Survey on Drug Use and Health (NSDUH)](https://www.datafiles.samhsa.gov/study-series/national-survey-drug-use-and-health-nsduh-nid13517).
+This repository contains entire R code work and datafiles used for all the analyses, tables, and figures in the manuscript "Prediction-Oriented Model Selection Metrics for Extended Redundancy Analysis." All of the original data used for the creation of [merged2016-2019.csv](https://github.com/QuantMM/PredictiveERAmodeling/blob/main/merged2016-2019.csv) were downloaded from: [National Survey on Drug Use and Health (NSDUH)](https://www.datafiles.samhsa.gov/study-series/national-survey-drug-use-and-health-nsduh-nid13517).
 
 Author(s)
 -------
