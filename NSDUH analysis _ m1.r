@@ -15,9 +15,6 @@ D <- read.csv("merged2016-2019.csv", header = T, sep = ",", na.strings=c("NA"))
 D_t <- D[D$year!=2019,]
 D_v <- D[D$year==2019,]
 
-# try
-D_t <- D_t[sample(1:nrow(D_t),1000),]
-D_v <- D_v[sample(1:nrow(D_v),100),]
 
 ##########-------------------------------------------------
 ##########
