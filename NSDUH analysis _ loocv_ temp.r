@@ -9,8 +9,8 @@ round(m4_632,6)
 	NN <- sample(1:nrow(X_t), 6000)
 	LOO <- makeResampleDesc("LOO")
 	LOOid <- makeResampleInstance(LOO, size = nrow(X_t))
-	
 	Err4 <- c() # err of model4
+	start.time <- Sys.time()
 	for (nf in 1:length(NN)){
 		
 		nnf <- NN[nf]	
@@ -24,7 +24,8 @@ round(m4_632,6)
 		Err4 <- c(Err4,ErrTs4)
 		rm(fit4_tr)	
 	}
-	
+end.time <- Sys.time()
+(time.taken <- end.time - start.time)	
 	m4_LOOCV <- mean(Err4)
 round(m4_LOOCV,6)
 
