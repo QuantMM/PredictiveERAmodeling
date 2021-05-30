@@ -112,7 +112,7 @@ round(m4_t_RMSE,6);round(m4_v_RMSE,6)
 	NN <- sample(1:nrow(X_t), 10)
 	#NN <- nrow(X_t)
 	LOO <- makeResampleDesc("LOO")
-	LOOid <- makeResampleInstance(LOO, size = nrow(X_t))
+	LOOid <- makeResampleInstance(LOO, size = NN)
 	
 	Err4 <- c() # err of model4
 	for (nf in 1:length(NN)){
